@@ -1,0 +1,39 @@
+.version_grid{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.version-content-card{
+  padding: 20px;
+  text-align: left;
+  width: 40%;
+  margin: 30px;
+  transition: 0.3s;
+}
+.version-pic {
+}
+.mission{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.mission-card{
+  padding: 20px;
+  text-align: left;
+  width: 40%;
+  margin: 30px;
+  transition: 0.3s;
+}
+.mission-card:hover,.version-content-card:hover{
+    background-color: var(--primary-red);
+    color: white;
+    transform: translateY(-10px);
+
+}
+.mission-card h3,.version-content-card h3{
+    text-decoration: underline;
+}

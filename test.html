@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Mgwasi - Luxury Hotel</title>
+    <link rel="stylesheet" href="test.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Royal <span>Mgwasi</span></div>
+        
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#About">ABOUT US</a></li>
+            <li><a href="#our_rooms_header">ROOMS</a></li>
+            <li><a href="#our_services">SERVICES</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><button class="btn-book mobile-only">BOOK NOW</button></li>
+        </ul>
+        <button class="btn-book hide-mobile">BOOK NOW</button>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content reveal">
+            <h1>Welcome to Royal Mgwasi</h1>
+            <p class="welcome_tag">THE PLACE YOU'VE BEEN LOOKING FOR</p>
+            <div class="EXPLORE_box"><a href="#" class="EXPLORE_link">EXPLORE NOW →</a></div>
+        </div>
+
+        <div class="booking-bar reveal">
+            <div class="input-group"><label>Email</label><input type="text" placeholder="Enter Email"></div>
+            <div class="input-group"><label>Room Type</label><select><option>Select a room</option></select></div>
+            <div class="input-group"><label>Check In</label><input type="date"></div>
+            <div class="input-group"><label>Check Out</label><input type="date"></div>
+            <div class="input-group"><label>Guests</label><input type="number" value="1"></div>
+            <button class="btn-red">BOOK NOW</button>
+        </div>
+    </header>
+
+    <section class="welcome reveal" id="About">
+        <h2>ABOUT US</h2>
+        <div class="log_div"><img src="https://via.placeholder.com/150" alt="logo" class="About_logo"></div>
+        <div class="divider">~ ❀ ~</div>
+        <p class="intro-text">Experience the epitome of luxury in the heart of Tanzania. Royal Mgwasi combines traditional hospitality with modern elegance.</p>
+        
+        <div class="room-grid">
+            <div class="room-card"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=400" alt="Room 1"></div>
+            <div class="room-card"><img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=400" alt="Room 2"></div>
+            <div class="room-card"><img src="https://images.unsplash.com/photo-1544124499-58912cbddaad?auto=format&fit=crop&w=400" alt="Room 3"></div>
+        </div>
+        <div class="read_more_link"><a href="#">READ MORE →</a></div>
+    </section>
+
+    <section class="background_image reveal" id="our_rooms_header">
+        <h2 class="our_rooms_header">OUR ROOMS</h2>
+        <div class="divider">~ ❀ ~</div>
+        <div class="room_card_holder">
+            <div class="rooms-card">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=400" alt="Luxury Room" class="room-image">
+                <span class="room_name"><strong>Name:</strong> Daraxy Suite</span>
+                <p class="description">Spacious suite with city king bed, ensuite bathroom, and lounge area.</p>
+                <div class="price-tag">Tsh 80,000 /night</div>
+                <div class="book-btn"><a href="#">Book Now</a></div>
+            </div>
+            <div class="rooms-card">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=400" alt="Luxury Room" class="room-image">
+                <span class="room_name"><strong>Name:</strong> Executive Suite</span>
+                <p class="description">Spacious suite with city king bed, ensuite bathroom, and lounge area.</p>
+                <div class="price-tag">Tsh 120,000 /night</div>
+                <div class="book-btn"><a href="#">Book Now</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="our_services" class="reveal">
+        <h2 class="ourservices_head">OUR SERVICES</h2>
+        <div class="divider">~ ❀ ~</div>
+        <div class="services_cards_section">
+            <div class="service_card">
+                <i class="fas fa-utensils"></i>
+                <h3>Restaurant</h3>
+                <p>Where every plate tells a story. Savor a symphony of flavors crafted by top chefs.</p>
+            </div>
+            <div class="service_card">
+                <i class="fas fa-cocktail"></i>
+                <h3>Bar & VIP Lounge</h3>
+                <p>Sophistication meets the midnight hour in our exclusive velvet-toned lounge.</p>
+            </div>
+            <div class="service_card">
+                <i class="fas fa-users"></i>
+                <h3>Conference Room</h3>
+                <p>Precision meets productivity. Fully equipped for up to 100 distinguished guests.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>ADDRESS</h4>
+                <p>Royal Mgwasi, Tanzania</p>
+                <p>+255 647 3567</p>
+                <p>royalmgwasi@gmail.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>FOLLOW US</h4>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="watermark">All rights reserved © AlfredDev 2026</p>
+    </footer>
+
+    <script src="test.js"></script>
+</body>
+</html>
