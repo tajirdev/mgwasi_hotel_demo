@@ -73,12 +73,12 @@ Royal Mgwasi Hotel is a premium hospitality destination offering exceptional ser
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/royal-mgwasi-hotel.git
+git clone https://github.com/tajirdev/mgwasi_hotel_demo.git
 ```
 
 2. Navigate to the project directory
 ```bash
-cd royal-mgwasi-hotel
+cd mgwasi_hotel_demo
 ```
 
 3. Open `index.html` in your web browser
